@@ -1,0 +1,17 @@
+# C
+
+FITXATEGI BAT EGITEKO:
+  nano hasierakoPrintf.c
+  
+EXEKUTAGARRIA LORTZEKO:
+  gcc -o hasierakoPrintf hasierakoPrintf.c
+  
+OBJEKTUA LORTZEKO(hasierakoPrintf.o):
+  gcc -c hasierakoPrintf.c
+
+EXEKUTATZEKO:
+  ./hasierakoPrintf     --> DAGOKION DIREKTORIOAN EGON
+  
+MAKEFILE FITXATEGIA SORTU:
+  nano Makefile
+  
